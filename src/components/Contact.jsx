@@ -86,7 +86,7 @@ const Contact = () => {
                 </svg>
 
                 <span className="mx-2 w-72 truncate font-urbanist text-base-content">
-                  juliana@ebeyondbody.com.au
+                  juliana@beyondbody.com.au
                 </span>
               </p>
             </div>
