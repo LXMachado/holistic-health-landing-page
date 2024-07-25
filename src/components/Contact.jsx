@@ -18,7 +18,7 @@ const Contact = () => {
           Get in touch
         </h1>
         <span className="text-md mt-2 px-2 text-center font-urbanist md:mt-4 md:px-5 md:text-xl">
-          Contact us now and scale your business
+          Let's get in touch and talk about your health goals.
         </span>
       </motion.div>
       <motion.div variants={fadeIn("up", "tween", 0.2, 1)} className="container mx-auto px-6 py-10">
@@ -86,7 +86,7 @@ const Contact = () => {
                 </svg>
 
                 <span className="mx-2 w-72 truncate font-urbanist text-base-content">
-                  abc@example.com
+                  juliana@ebeyondbody.com.au
                 </span>
               </p>
             </div>
@@ -166,7 +166,7 @@ const Contact = () => {
 
           <div className="card mt-8 lg:mx-6 lg:w-1/2">
             <div className="card-body mx-auto w-full overflow-hidden rounded-lg px-8 py-10 shadow-xl outline outline-base-content/5 lg:max-w-xl">
-              <h1 className="card-title">What do you want to ask</h1>
+              <h1 className="card-title">What would you like to ask</h1>
 
               <form className="mt-6">
                 <div className="flex-1">
