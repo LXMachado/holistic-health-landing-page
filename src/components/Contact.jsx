@@ -215,7 +215,7 @@ const Contact = () => {
         </div>
       </motion.div>
       <div className="flex items-center justify-center py-10 font-urbanist text-sm lg:text-lg">
-        <h1>© 2024 Digital Agency. All rights reserved. </h1>
+        <h1>© 2024 Beyond Body Holistic Health. All rights reserved. </h1>
       </div>
     </motion.section>
   )

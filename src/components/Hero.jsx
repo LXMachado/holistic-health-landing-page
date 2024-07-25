@@ -26,7 +26,7 @@ const Hero = () => {
             <span className="text-base-content/30"> Holistic Health</span>
           </h1>
           <p className="py-6 font-urbanist lg:max-w-lg">
-            Discover Total Wellness: Your Path to Holistic Health and Mindful Living
+            Your Path to Holistic Health and Mindful Living
           </p>
           <div className="flex gap-2 max-lg:justify-center">
             <a

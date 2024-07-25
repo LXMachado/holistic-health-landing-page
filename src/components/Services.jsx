@@ -4,41 +4,31 @@ import { fadeIn, staggerContainer } from "../utils/motion"
 
 const services = [
   {
-    name: "Service 1",
+    name: "Remedial Massage",
     icon: "../../images/icons/digitalmarketing.png",
     description:
-      "Unlock the full potential of your online presence with our comprehensive digital marketing solutions. In today's hyper-connected world, standing out in the digital landscape is essential for success.",
+      "Targeted treatments to alleviate muscle tension, improve circulation, and promote overall wellness. I use customized techniques to ensure optimal recovery and relaxation for your body and mind.",
   },
   {
-    name: "Service 2",
+    name: "Hot Stones",
     icon: "../../images/icons/webdevelopment.png",
     description:
-      "Embark on a digital journey with a captivating online presence crafted by our expert website development team. In today's digital era, your website serves as the cornerstone of your brand.",
+      "Experience deep relaxation and enhanced muscle relief with my hot stone massage service. I use smooth, heated stones to melt away tension, improve circulation, and restore balance.",
   },
   {
-    name: "Service 3",
+    name: "Nutrition Consultation",
     icon: "../../images/icons/socialmedia.png",
     description:
-      "Elevate your brand's online presence and engage with your audience like never before with our expert social media management services. In today's fast-paced digital landscape.",
+      "Personalized guidance to help you achieve optimal health. I provide tailored advice, meal plans, and support to ensure you meet your wellness goals through balanced, nutritious eating habits.",
   },
   {
-    name: "Service 4",
+    name: "Exercise Consultation",
     icon: "../../images/icons/appdevelopment.png",
     description:
-      "Empower your business and connect with your audience on-the-go with our custom app development services. In today's mobile-centric world, having a tailored mobile application is essential.",
+      "My exercise consultation service provides personalized fitness plans to help you achieve your health goals. I offer expert advice, tailored workout routines, and ongoing support to ensure you stay motivated and make progress towards a healthier lifestyle.",
   },
-  /*{
-    name: "Video Editing",
-    icon: "../../images/icons/videoediting.png",
-    description:
-      "Transform your raw footage into captivating visual stories with our professional video editing services. In today's digital landscape, video content reigns supreme, captivating audiences.",
-  },
- {
-    name: "Consulting",
-    icon: "../../images/icons/consulting.png",
-    description:
-      "Empower your business with expert guidance and strategic insights from our seasoned consulting team. In today's fast-paced and ever-changing business landscape, navigating challenges and seizing opportunities. ",
-  },*/
+  
+
 ]
 const Services = () => {
   return (
@@ -56,7 +46,7 @@ const Services = () => {
           My Services
         </h1>
         <span className="text-md font-urbanist mt-2 px-2 text-center md:mt-4 md:px-5 md:text-xl">
-          Experience Comprehensive Care with Our Holistic Health Services: Nutrition, Mindfulness, Fitness, and More.
+          Comprehensive Care and Holistic Health Services.
         </span>
       </motion.div>
       <motion.div
