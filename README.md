@@ -1,17 +1,17 @@
-# Agency Landingpage for React
+# React Holistic Health Landingpage
 
 Thank you for purchasing this page. I hope it's going to be helpful for you.
 
 ## Features
 
-- React Agency landing page layout made with daisyUI 4
+- React Holistic Health landing page layout made with daisyUI 4
 - Made with Vite 5, React, Framer Motion
 - Compatible with all daisyUI themes (32 themes)
 
 ## Including
 
 - Responsive layout
-- Beautiful landing page for digital agencies
+- Beautiful landing page for Holistic Health
 - Services section, testimonials, team section, contact form layout
 - Dark mode toggle
 
@@ -37,23 +37,13 @@ You can:
 
 1. Install dependencies
 
-```
 npm install
-```
 
-2. Run the dev server
+Run the dev server
 
-```
 npm run dev
-```
 
-3. Or build and preview:
+ Or build and preview:
 
-```
 npm run build
 npm run preview
-```
-
-## Icons credit
-
-[Marketing icons created by wanicon - Flaticon](https://www.flaticon.com/free-icons/marketing)
