@@ -38,7 +38,7 @@ const Team = () => {
         className="flex flex-col items-center justify-center">
         <h1 className="font-urbanist text-center text-2xl font-semibold md:text-5xl">Meet Juliana</h1>
         <span className="text-md font-urbanist mt-4 px-2 text-center md:mt-4 md:px-5 md:text-xl">
-          our passionate team collaborates seamlessly to create solutions.
+          Meet the mind behind Beyond Body Holistic Health.
         </span>
       </motion.div>
       <motion.div
