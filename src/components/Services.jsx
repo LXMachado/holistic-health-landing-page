@@ -5,25 +5,25 @@ import { fadeIn, staggerContainer } from "../utils/motion"
 const services = [
   {
     name: "Remedial Massage",
-    icon: "../../images/icons/digitalmarketing.png",
+    icon: "../../images/icons/remedial-massage.png",
     description:
       "Targeted treatments to alleviate muscle tension, improve circulation, and promote overall wellness. I use customized techniques to ensure optimal recovery and relaxation for your body and mind.",
   },
   {
     name: "Hot Stones",
-    icon: "../../images/icons/webdevelopment.png",
+    icon: "../../images/icons/hot-stones.png",
     description:
       "Experience deep relaxation and enhanced muscle relief with my hot stone massage service. I use smooth, heated stones to melt away tension, improve circulation, and restore balance.",
   },
   {
     name: "Nutrition Consultation",
-    icon: "../../images/icons/socialmedia.png",
+    icon: "../../images/icons/nutrition-consultation.png",
     description:
       "Personalized guidance to help you achieve optimal health. I provide tailored advice, meal plans, and support to ensure you meet your wellness goals through balanced, nutritious eating habits.",
   },
   {
     name: "Exercise Consultation",
-    icon: "../../images/icons/appdevelopment.png",
+    icon: "../../images/icons/Exercise.png",
     description:
       "My exercise consultation service provides personalized fitness plans to help you achieve your health goals. I offer expert advice, tailored workout routines, and ongoing support to ensure you stay motivated and make progress towards a healthier lifestyle.",
   },
