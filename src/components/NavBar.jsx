@@ -17,7 +17,7 @@ const NavBar = () => {
       <div className="navbar max-w-xs rounded-full bg-base-100/90 py-0 shadow-2xl outline outline-base-content/5 backdrop-blur md:max-w-4xl">
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-circle btn-ghost lg:hidden ">
+            <div tabIndex={0} role="button" className="btn btn-circle btn-ghost md:hidden ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -42,9 +42,7 @@ const NavBar = () => {
               ))}
             </ul>
           </div>
-          <a href="/" className="btn btn-ghost rounded-full font-urbanist text-lg font-semibold">
-            Beyond Body
-          </a>
+         
         </div>
         <div className="navbar-center ml-10 hidden lg:flex">
           {navigation.map((item, index) => (
