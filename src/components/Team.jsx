@@ -9,18 +9,6 @@ const team = [
       "https://cdn.midjourney.com/fa7d2c5e-08ff-4143-be09-45dadf22c27a/0_0.png",
     position: "Founder & CEO",
   },
- /* {
-    name: "John",
-    profile:
-      "https://cdn.midjourney.com/fa7d2c5e-08ff-4143-be09-45dadf22c27a/0_1.png",
-    position: "CoFounder & CTO",
-  },
-  {
-    name: "Emily",
-    profile:
-      "https://cdn.midjourney.com/3ae5b881-099a-44c7-a715-48531c4b5e22/0_2.png",
-    position: "Head of Growth",
-  },*/
   
 ]
 
