@@ -27,9 +27,8 @@ const services = [
     description:
       "My exercise consultation service provides personalized fitness plans to help you achieve your health goals. I offer expert advice, tailored workout routines, and ongoing support to ensure you stay motivated and make progress towards a healthier lifestyle.",
   },
-  
-
 ]
+
 const Services = () => {
   return (
     <motion.div
@@ -55,16 +54,23 @@ const Services = () => {
         {services.map((item, index) => (
           <div
             key={index}
-            className="card max-w-2xl  shadow-sm transition duration-300 hover:-translate-y-1">
+            className="card max-w-2xl shadow-sm transition duration-300 hover:-translate-y-1">
             <div className="card-body">
               <div className="h-16 w-16 rounded-full bg-gradient-to-t from-base-300/20 to-base-content/10">
-                <img className="p-4" src={item.icon} />
+                <img className="p-4" src={item.icon} alt={item.name} />
               </div>
               <h2 className="font-urbanist card-title text-3xl font-black">{item.name}</h2>
               <p className="text-md font-urbanist font-medium opacity-60">{item.description}</p>
             </div>
           </div>
         ))}
+      </motion.div>
+      <motion.div
+        variants={fadeIn("up", "tween", 0.2, 1)}
+        className="mt-10">
+        <a href="#contactus" className="btn btn-neutral md:btn-lg rounded-full font-urbanist shadow-md">
+          Find out more
+        </a>
       </motion.div>
     </motion.div>
   )

@@ -22,8 +22,7 @@ const Hero = () => {
         <div className="text-center lg:text-start">
           <span className="badge badge-outline badge-lg">Award winning Wellness Center</span>
           <h1 className="font-urbanist text-3xl font-black uppercase md:text-7xl">
-            Beyond Body
-            <span className="text-base-content/30"> Holistic Health</span>
+            Beyond Body Holistic Health
           </h1>
           <p className="py-6 font-urbanist lg:max-w-lg">
             Your Path to Holistic Health and Mindful Living
