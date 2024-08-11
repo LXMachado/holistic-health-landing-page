@@ -1,4 +1,4 @@
-# React Holistic Health Landingpage
+# Vite React Holistic Health Landingpage
 
 Thank you for purchasing this page. I hope it's going to be helpful for you.
 
