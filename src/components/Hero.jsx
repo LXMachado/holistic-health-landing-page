@@ -15,7 +15,7 @@ const Hero = () => {
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="hero-content flex-col lg:flex-row-reverse">
         <img
-          src="https://cdn.midjourney.com/ecca6a9c-91dd-4f77-9816-bb260e23d4ec/0_0.png"
+          src="/images/logo/Lotus-Icon-landscape.png"
           alt=""
           className="max-w-xs rounded-b-box rounded-t-[14rem] shadow-2xl outline outline-base-content/5 md:max-w-md"
         />

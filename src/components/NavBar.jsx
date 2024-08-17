@@ -43,7 +43,7 @@ const NavBar = () => {
             </ul>
           </div>
           <a href="/" className="btn btn-ghost rounded-full font-urbanist text-lg font-semibold">
-            Beyond Body
+            Wellness & Wellbeing
           </a>
         </div>
         <div className="navbar-center ml-10 hidden lg:flex">
