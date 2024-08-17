@@ -1,6 +1,6 @@
-# React Holistic Health Landingpage
+# Vite React Holistic Health Landing page
 
-Thank you for purchasing this page. I hope it's going to be helpful for you.
+The landing page for Beyond Body Holistic Health is a dynamic and modern web solution, crafted using a full-stack Vite, React, and Node/Express setup. It features a clean and responsive design to promote holistic health services, ensuring fast performance and seamless user interaction. The back-end, powered by Node/Express, efficiently handles form submissions and any necessary data management, while the front-end offers an engaging, intuitive user experience.
 
 ## Features
 
