@@ -7,25 +7,25 @@ const services = [
     name: "Remedial Massage",
     icon: "../../images/icons/remedial-massage.png",
     description:
-      "Targeted treatments to alleviate muscle tension, improve circulation, and promote overall wellness. I use customized techniques to ensure optimal recovery and relaxation for your body and mind.",
+      "Targeted treatments to alleviate muscle tension, improve circulation, and promote overall wellness. I use customized techniques to ensure optimal recovery and relaxation for your body and mind. 40 min $50.00 / 90 min $100.00",  
   },
   {
     name: "Hot Stones",
     icon: "../../images/icons/hot-stones.png",
     description:
-      "Experience deep relaxation and enhanced muscle relief with my hot stone massage service. I use smooth, heated stones to melt away tension, improve circulation, and restore balance.",
+      "Experience deep relaxation and enhanced muscle relief with my hot stone massage service. I use smooth, heated stones to melt away tension, improve circulation, and restore balance. 90 min $120.00",
   },
   {
     name: "Nutrition Consultation",
     icon: "../../images/icons/nutrition-consultation.png",
     description:
-      "Personalized guidance to help you achieve optimal health. I provide tailored advice, meal plans, and support to ensure you meet your wellness goals through balanced, nutritious eating habits.",
+      "Personalized guidance to help you achieve optimal health. I provide tailored advice, meal plans, and support to ensure you meet your wellness goals through balanced, nutritious eating habits. 30 min $30.00 / 60 min $50.00",
   },
   {
     name: "Exercise Consultation",
     icon: "../../images/icons/Exercise.png",
     description:
-      "My exercise consultation service provides personalized fitness plans to help you achieve your health goals. I offer expert advice, tailored workout routines, and ongoing support to ensure you stay motivated and make progress towards a healthier lifestyle.",
+      "My personalized advice, tailored workout routines, and ongoing support to ensure you stay motivated and make progress towards a healthier lifestyle. 30 min $30.00 / 60 min $50.00",
   },
 ]
 

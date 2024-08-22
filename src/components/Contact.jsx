@@ -18,11 +18,11 @@ const Contact = () => {
           Get in touch
         </h1>
         <span className="text-md mt-2 px-2 text-center font-urbanist md:mt-4 md:px-5 md:text-xl">
-          Let's get in touch and talk about your health and wellness goals.
+          Appointments by SMS or message on website.
         </span>
       </motion.div>
       <motion.div variants={fadeIn("up", "tween", 0.2, 1)} className="container mx-auto px-6 py-10">
-        <div className="lg:-mx-6 lg:flex lg:items-center">
+        <div className="lg:-mx-6 lg:flex lg:items-center"></div>
           <div className="lg:mx-0 lg:mt-0 lg:flex lg:w-1/2 lg:flex-col lg:items-center">
             <div className="mt-6 space-y-8 md:mt-8">
               <p className="-mx-2 flex items-start">
@@ -46,7 +46,7 @@ const Contact = () => {
                 </svg>
 
                 <span className="mx-2 w-72 truncate font-urbanist text-base-content">
-                  Company Location
+                  Waikiki, Western Australia
                 </span>
               </p>
 
@@ -66,7 +66,7 @@ const Contact = () => {
                 </svg>
 
                 <span className="mx-2 w-72 truncate font-urbanist text-base-content">
-                  +1 (555) 234-5678
+                  +61 406 757 655
                 </span>
               </p>
 
@@ -90,12 +90,10 @@ const Contact = () => {
                 </span>
               </p>
             </div>
-
-            <div className="mt-6 w-80 md:mt-8">
+            {/* <div className="mt-6 w-80 md:mt-8">
               <h3 className="text-base-400 ">Follow us</h3>
 
               <div className="-mx-1.5 mt-4 flex ">
-               
                 <a
                   className="btn mx-1.5 rounded-full bg-base-100"
                   href="https://www.linkedin.com"
@@ -117,8 +115,6 @@ const Contact = () => {
                   </svg>
                 </a>
 
-               
-
                 <a
                   className="btn mx-1.5 rounded-full bg-base-100"
                   href="https://www.instagram.com"
@@ -135,13 +131,13 @@ const Contact = () => {
                   </svg>
                 </a>
               </div>
-            </div>
-          </div>
-
+            </div> */}
+          
           <div className="card mt-8 lg:mx-6 lg:w-1/2">
             <div className="card-body mx-auto w-full overflow-hidden rounded-lg px-8 py-10 shadow-xl outline outline-base-content/5 lg:max-w-xl">
-              <h1 className="card-title">Please leave a message with your preferred date, time and treatment required.</h1>
-
+              <h1 className="card-title">Contact Me.</h1>
+              <p className="text-base-content mt-2">
+              Please leave a message with your preferred date, time and treatment required.</p>
               <form className="mt-6">
                 <div className="flex-1">
                   <label htmlFor="name" className="mb-2 block text-sm">

@@ -7,7 +7,7 @@ import "swiper/css/pagination"
 import { Navigation, Autoplay, Pagination, Mousewheel, Keyboard } from "swiper/modules"
 const testimonials = [
   {
-    name: "Alexandre",
+    name: "Alex S.",
     position: "Lead Developer",
     quote:
       "I really like this wellness Center. They are very professional and know how to get the job done. I would recommend them to anyone.",

@@ -33,7 +33,9 @@ const Hero = () => {
               className="btn btn-neutral md:btn-lg rounded-full font-urbanist shadow-md">
               Get Started
             </a>
-            <a href="/" className="btn btn-ghost md:btn-lg rounded-full font-urbanist font-light">
+            <a 
+              href="#services" 
+              className="btn btn-ghost md:btn-lg rounded-full font-urbanist font-light">
               Find out more
             </a>
           </div>
