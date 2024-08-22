@@ -34,23 +34,21 @@ const Team = () => {
 
       <motion.div
         variants={fadeIn("up", "tween", 0.2, 1)}
-        className="py-10 max-w-7xl">
-        <div className="container mx-4 h-auto rounded-xl max-sm:max-w-sm border border-base-content/10 grid place-items-center">
-          {team.map((item, index) => (
-            <div key={index} className="card w-80 border border-base-content/10 shadow-sm lg:w-96">
-              <figure className="px-10 pt-10">
-                <img src={item.profile} alt={item.name} className="h-44 w-44 rounded-full" />
-              </figure>
-              <div className="card-body items-center text-center">
-                <h2 className="font-urbanist card-title font-bold">{item.name}</h2>
-                <h2 className="font-urbanist font-semibold opacity-70">{item.position}</h2>
+        className="py-10 max-w-7xl flex flex-col items-center justify-center">
+        {team.map((item, index) => (
+          <div key={index} className="w-80 lg:w-96 mx-auto border border-base-content/10 shadow-sm rounded-xl p-6">
+            <figure className="flex flex-col items-center">
+              <img src={item.profile} alt={item.name} className="h-44 w-44 rounded-full" />
+              <figcaption className="mt-4 text-center">
+                <h2 className="font-urbanist font-bold">{item.name}</h2>
+                <h3 className="font-urbanist font-semibold opacity-70">{item.position}</h3>
                 <p className="mt-4 text-sm font-urbanist text-base-content leading-6">
                   {item.biography}
                 </p>
-              </div>
-            </div>
-          ))}
-        </div>
+              </figcaption>
+            </figure>
+          </div>
+        ))}
       </motion.div>
     </motion.div>
   )
