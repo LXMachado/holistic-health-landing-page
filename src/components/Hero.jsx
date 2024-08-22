@@ -17,7 +17,7 @@ const Hero = () => {
         <img
           src="/images/logo/Lotus-Icon-landscape.png"
           alt=""
-          className="max-w-xs rounded-b-box rounded-t-[14rem] shadow-2xl outline outline-base-content/5 md:max-w-md"
+          className="max-w-xs rounded-b-box rounded-t-[14rem] md:max-w-md" 
         />
         <div className="text-center lg:text-start">
           <span className="badge badge-outline badge-lg">Award winning Wellness Center</span>

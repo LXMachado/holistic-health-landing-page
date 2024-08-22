@@ -140,7 +140,7 @@ const Contact = () => {
 
           <div className="card mt-8 lg:mx-6 lg:w-1/2">
             <div className="card-body mx-auto w-full overflow-hidden rounded-lg px-8 py-10 shadow-xl outline outline-base-content/5 lg:max-w-xl">
-              <h1 className="card-title">What do you like to ask?</h1>
+              <h1 className="card-title">Please leave a message with your preferred date, time and treatment required.</h1>
 
               <form className="mt-6">
                 <div className="flex-1">
