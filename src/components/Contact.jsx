@@ -18,7 +18,7 @@ const Contact = () => {
           Get in touch
         </h1>
         <span className="text-md mt-2 px-2 text-center font-urbanist md:mt-4 md:px-5 md:text-xl">
-          Appointments by SMS or message on website.
+          Appointments by SMS.
         </span>
       </motion.div>
       <motion.div variants={fadeIn("up", "tween", 0.2, 1)} className="container mx-auto px-6 py-10">
@@ -132,56 +132,53 @@ const Contact = () => {
                 </a>
               </div>
             </div> */}
-          
-          <div className="card mt-8 lg:mx-6 lg:w-1/2">
-            <div className="card-body mx-auto w-full overflow-hidden rounded-lg px-8 py-10 shadow-xl outline outline-base-content/5 lg:max-w-xl">
-              <h1 className="card-title">Contact Me.</h1>
-              <p className="text-base-content mt-2">
-              Please leave a message with your preferred date, time and treatment required.</p>
-              <form className="mt-6">
-                <div className="flex-1">
-                  <label htmlFor="name" className="mb-2 block text-sm">
-                    Full Name
-                  </label>
-                  <input
-                    id="name"
-                    autoComplete="name"
-                    type="text"
-                    placeholder="Your Name"
-                    className="input input-bordered w-full"
-                  />
-                </div>
+    
+        <div className="flex justify-center items-center mt-8 lg:mx-6 w-full"> {/* Full width container with flexbox */}
+  <div className="card w-full lg:w-2/3 overflow-hidden rounded-lg px-8 py-10 shadow-xl outline outline-base-content/5"> {/* Removed the max-w-xl and set lg:w-2/3 */}
+    <h1 className="card-title">Contact Me.</h1>
+    <p className="text-base-content mt-2">
+      Please leave a message with your preferred date, time, and treatment required.
+    </p>
+    <form className="mt-6">
+      <div className="flex-1">
+        <label htmlFor="name" className="mb-2 block text-sm">Full Name</label>
+        <input
+          id="name"
+          autoComplete="name"
+          type="text"
+          placeholder="Your Name"
+          className="input input-bordered w-full"
+        />
+      </div>
 
-                <div className="mt-6 flex-1">
-                  <label htmlFor="email" className="mb-2 block text-sm">
-                    Email address
-                  </label>
-                  <input
-                    id="email"
-                    autoComplete="email"
-                    type="email"
-                    placeholder="abcd@example.com"
-                    className="input input-bordered w-full"
-                  />
-                </div>
+      <div className="mt-6 flex-1">
+        <label htmlFor="email" className="mb-2 block text-sm">Email address</label>
+        <input
+          id="email"
+          autoComplete="email"
+          type="email"
+          placeholder="abcd@example.com"
+          className="input input-bordered w-full"
+        />
+      </div>
 
-                <div className="mt-6 w-full">
-                  <label htmlFor="message" className="mb-2 block text-sm">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    autoComplete="message"
-                    className="textarea textarea-bordered w-full"
-                    placeholder="Message"></textarea>
-                </div>
+      <div className="mt-6 w-full">
+        <label htmlFor="message" className="mb-2 block text-sm">Message</label>
+        <textarea
+          id="message"
+          autoComplete="message"
+          className="textarea textarea-bordered w-full"
+          placeholder="Message"></textarea>
+      </div>
 
-                <button className="btn btn-neutral mt-6 w-full transform px-6 py-3 text-sm font-medium capitalize duration-300  ">
-                  get in touch
-                </button>
-              </form>
-            </div>
-          </div>
+      <button className="btn btn-neutral mt-6 w-full transform px-6 py-3 text-sm font-medium capitalize duration-300">
+        Get In Touch
+      </button>
+    </form>
+  </div>
+</div>
+
+
         </div>
       </motion.div>
       <div className="flex items-center justify-center py-10 font-urbanist text-sm lg:text-lg">
