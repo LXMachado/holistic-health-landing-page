@@ -7,25 +7,29 @@ const services = [
     name: "Remedial Massage",
     icon: "../../images/icons/remedial-massage.png",
     description:
-      "Targeted treatments to alleviate muscle tension, improve circulation, and promote overall wellness. I use customized techniques to ensure optimal recovery and relaxation for your body and mind. 40 min $50.00 / 90 min $100.00",  
+      "Targeted treatments to alleviate muscle tension, improve circulation, and promote overall wellness. I use customized techniques to ensure optimal recovery and relaxation for your body and mind.",
+    price: "40 min $50.00 / 90 min $100.00",
   },
   {
     name: "Hot Stones",
     icon: "../../images/icons/hot-stones.png",
     description:
-      "Experience deep relaxation and enhanced muscle relief with my hot stone massage service. I use smooth, heated stones to melt away tension, improve circulation, and restore balance. 90 min $120.00",
+      "Experience deep relaxation and enhanced muscle relief with my hot stone massage service. I use smooth, heated stones to melt away tension, improve circulation, and restore balance.",
+    price: "90 min $120.00",
   },
   {
     name: "Nutrition Consultation",
     icon: "../../images/icons/nutrition-consultation.png",
     description:
-      "Personalized guidance to help you achieve optimal health. I provide tailored advice, meal plans, and support to ensure you meet your wellness goals through balanced, nutritious eating habits. 30 min $30.00 / 60 min $50.00",
+      "Personalized guidance to help you achieve optimal health. I provide tailored advice, meal plans, and support to ensure you meet your wellness goals through balanced, nutritious eating habits.",
+    price: "30 min $30.00 / 60 min $50.00",
   },
   {
     name: "Exercise Consultation",
     icon: "../../images/icons/Exercise.png",
     description:
-      "My personalized advice, tailored workout routines, and ongoing support to ensure you stay motivated and make progress towards a healthier lifestyle. 30 min $30.00 / 60 min $50.00",
+      "My personalized advice, tailored workout routines, and ongoing support to ensure you stay motivated and make progress towards a healthier lifestyle.",
+    price: "30 min $30.00 / 60 min $50.00",
   },
 ]
 
@@ -61,6 +65,8 @@ const Services = () => {
               </div>
               <h2 className="font-urbanist card-title text-3xl font-black">{item.name}</h2>
               <p className="text-md font-urbanist font-medium opacity-60">{item.description}</p>
+              {/* Render the price with enhanced visibility */}
+              <p className="text-lg font-urbanist font-bold mt-4 text-primary">{item.price}</p>
             </div>
           </div>
         ))}
