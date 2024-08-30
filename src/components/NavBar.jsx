@@ -4,9 +4,9 @@ import "react-hook-theme/dist/styles/style.css"
 
 const navigation = [
   { name: "Home", href: "#home" },
+  { name: "About", href: "#about" },
   { name: "Services", href: "#services" },
   { name: "Testimonial", href: "#testimonial" },
-  { name: "Team", href: "#team" },
   { name: "Contact Us", href: "#contactus" },
 ]
 const NavBar = () => {
