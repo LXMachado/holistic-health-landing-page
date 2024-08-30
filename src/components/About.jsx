@@ -5,7 +5,7 @@ import { fadeIn, staggerContainer } from "../utils/motion"
 const team = [
   {
     name: "Juliana Machado",
-    profile: "https://images.pexels.com/photos/3998002/pexels-photo-3998002.jpeg",
+    profile: "/images/testimonials/juliana.png",
     position: "Founder & CEO",
     biography:
       "Remedial Massage Therapist since 2009 with a passion for helping others and promoting healthy living. Currently pursuing a Bachelor of Health Science, I have a deep understanding of diet, exercise, and lifestyle changes that enhance well-being. Skilled in various massage techniques, I exclusively use natural products to ensure optimal care.",
@@ -19,7 +19,7 @@ const Team = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      id="team"
+      id="about"
       className="my-20 flex flex-col items-center justify-center md:my-32">
       <motion.div
         variants={fadeIn("up", "tween", 0.2, 1)}
